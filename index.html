@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Cadastro de Aluno</h1>
+    <form>
+        <!-- input text -->
+        <label for="Nome">Nome: </label>
+        <input type="text" name="Nome" id="Nome" placeholder="Digite seu nome">
+
+        <!-- input email -->
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="Digite seu email">
+
+        <!-- input senha -->
+        <label for="password">Senha: </label>
+        <input type="password" name="password" id="password" placeholder="Digite sua senha">
+
+        <!-- input data -->
+        <label for="Data de nascimento"></label>
+        <input type="date" name="data" id="data" placeholder="Digite a sua data de nascimento">
+
+        <!-- input select -->
+        <label for="Cidade">Cidade: </label>
+        <select name="Cidade" id="Cidade">
+
+            <option>Selecione a sua cidade</option>
+            <option>Londrina</option>
+            <option>Cambé</option>
+            <option>Apucaranas</option>
+            <option>Petrolina</option>
+            
+        </select>
+
+        <label for="Voce e um robo">Você é um robo?</label>
+        <input type="radio" name="robo">
+        sim
+
+        <input type="radio" name="robo">
+        não
+
+        <!-- input checkbox -->
+        <label>
+            <input type="checkbox" name="" id="opcoes">
+            Aceito os termos
+        </label>
+
+        <!-- textarea -->
+        <label>
+
+            <textarea rows="4"></textarea>
+        </label>
+
+        <!-- botão -->
+        <button type="submit">
+            cadastrar
+        </button>
+        
+    </form>
+</body>
+</html>
