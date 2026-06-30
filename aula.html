@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cadastro da Academia</h1>
+    <form>
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" id="nome" placeholder="Digite o se nome" required>
+
+        <label for="E-mail">E-mal: </label>
+        <input type="email" name="E-mail" id="E-mail" placeholder="Digite o seu email" required>
+
+        <label for="Senha">Senha: </label>
+        <input type="password" name="Senha" id="Senha" placeholder="Digite a sua senha" required>
+
+        <label for="data">Data de nascimento</label>
+        <input type="date" name="data" id="data" required>
+
+        <label for="Cidade">Cidade: </label>
+        <select name="Cidade" id="Cidade">
+            <option>Londrina</option>
+            <option>Cambé</option>
+            <option>Apucaranas</option>
+            <option>Outro</option>
+        </select>
+
+        <label for="Radio">Possui Gympass?</label>
+        <input type="radio" name="radio" required>
+        Sim
+        <input type="radio" name="radio" required>
+        Não
+
+        <label>
+            <input type="checkbox" name="" id="opcoes" required>
+            Aceito as regras de uso do equipamento da academia
+        </label>
+
+        <button type="submit" aria-required="">Cadastrar</button>
+
+    </form>
+</body>
+</html>
